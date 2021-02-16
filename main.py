@@ -27,7 +27,7 @@ for i in range(num): # Looping over the amount of numbers to generate
         angle - 90, # Deciding the angle of the arc
         angle,
         fill = (0,255,0), # Making it green
-        width = 1 # Making the arc wider to mach it with the size of the image class
+        width = 2 # Making the arc wider to mach it with the size of the image class
     )
     if i % 4 == 0: # Making it run every fourth time
         x1 -= fibo1 # Doing some math to make the arcs fit
