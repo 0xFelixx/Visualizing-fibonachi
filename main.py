@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw
 
-im = Image.new("RGBA", (500,250), (0,0,0,255)) # intialising the image class
+im = Image.new("RGBA", (500,250), (0,0,0,255)) # Intialising the image class
 draw = ImageDraw.Draw(im) # Getting ready to draw fibonachi
 
 num = 16 # The amount of fibonachi numbers to visualise
